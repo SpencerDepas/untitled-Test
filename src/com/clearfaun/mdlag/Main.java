@@ -6,6 +6,13 @@ public class Main {
 	// write your code here
 
         printHello();
+
+        DogFish dogFish = new DogFish();
+
+        dogFish.getNumber();
+
+        System.out.print(dogFish.getNumber());
+
     }
 
     private static void printHello(){
